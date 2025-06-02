@@ -20,10 +20,18 @@
 
 </form>
 <p><a href="index.html">Back to Home</a></p>
+<p><a href="forgot.jsp">Forgot Password</a></p>
+
 <%String error=request.getParameter("error");
 if(error!=null && error.equals("1")){%>
 	<p style="color:cyan;font-weight:bold;">Invalid username or password </p>
 	<p style="color:cyan;font-weight:bold;">please try again</p>
+<%}
+%>
+<%String registration=request.getParameter("registration");
+if(registration!=null && registration.equals("success")){%>
+	<p style="color:cyan;font-weight:bold;">User Registered Successfully</p>
+	<p style="color:cyan;font-weight:bold;"></p>
 <%}
 %>
 </div>

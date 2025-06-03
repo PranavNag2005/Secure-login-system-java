@@ -4,7 +4,7 @@
 A **secure login and logout system** built using **Servlet, JSP, HTML, CSS, and MySQL**, ensuring safe authentication and session management.
 
 ## Features
-- User registration with password hashing  
+- User registration 
 - Secure login authentication using session management  
 - Logout functionality with session termination  
 - Restricted access to protected pages  
